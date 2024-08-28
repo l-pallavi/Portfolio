@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Certificate</title>
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="/index.html"><span>Pallavi</span>L</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/experience.html">Experience</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="/project.html">Projects</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="/education.html">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="/certificate.html">Certificate</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section class="certificate-page banner-section">
+        
+        <h1>My Certificates</h1>
+        
+        <div class="container">
+
+            <div class="certificate" id="cert1">
+                <!-- <img src="images/cert2.jpg" alt="Full Stack Python"> -->
+                <div class="cert-content">
+                    <h2>Full Stack Python (Ongoing)</h2>
+                    <p id="details2" class="details">Currently enrolled in Full Stack Python course st Besant Technologies.</p>
+                </div>
+                <button onclick="toggleDetails('details2')">View Details</button>
+            </div>
+    
+            <div class="certificate" id="cert2">
+                <img src="images/a11y.jpeg" alt="Certificate of Excellence">
+                <div class="cert-content">
+                    <h2>Certificate of Excellence</h2>
+                    <h3>Meritorious Performance in a11y Retrofit Project</h3>
+                    <p id="details1" class="details">Awarded for exceptional performance in an accessibility (a11y) retrofit project, ensuring enhanced accessibility and inclusivity in web applications.</p>
+                </div>
+                <button onclick="toggleDetails('details1')">View Details</button>
+            </div>
+    
+            <div class="certificate" id="cert3">
+                <img src="images/java.jpeg" alt="Java Full Stack Development">
+                <div class="cert-content">
+                    <h2>Java Full Stack Development</h2>
+                    <h3>Pentagon Space</h3>
+                    <p id="details3" class="details">Completed Java Full Stack Development course at Pentagon Space.</p>
+                </div>
+                <button onclick="toggleDetails('details3')">View Details</button>
+            </div>
+    
+            <div class="certificate" id="cert4">
+                <img src="images/internaship.jpeg" alt="Full Stack Web Development">
+                <div class="cert-content">
+                    <h2>Full Stack Web Development</h2>
+                    <h3>Internship – RunShaw Technologies Pvt. Ltd.</h3>
+                    <p id="details4" class="details">Completed a Full Stack Web Development internship at RunShaw Technologies Pvt. Ltd.</p>
+                </div>
+                <button onclick="toggleDetails('details4')">View Details</button>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100007021455763"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.linkedin.com/in/l-pallavi-83a7101aa/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/l-pallavi"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/lpallavi_99/?hl=en#"><i class='bx bxl-instagram-alt' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">&COPY; 2023 Pallavi | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
