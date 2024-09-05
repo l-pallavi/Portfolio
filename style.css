@@ -101,7 +101,9 @@ span{
     width: 100%;
     /* min-height: 115vh; */
     background: rgb(241, 241, 241);
+    padding-bottom: 1px;
 }
+
 .home-contact{
     max-width: 800;
 }
