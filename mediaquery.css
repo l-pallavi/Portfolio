@@ -54,6 +54,7 @@
     }
     #education .m-education .card{
         width: 100% !important;
+        justify-content: center !important;
     }
 }
 
